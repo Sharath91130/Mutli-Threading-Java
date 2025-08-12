@@ -8,6 +8,7 @@ public class YieldApp {
         amountTransfer.setPriority(Thread.NORM_PRIORITY);
         amountTransfer.start();
         rewardsCalcutor.start();
+        
 
 
     }
